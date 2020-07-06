@@ -8,9 +8,9 @@ class ThoughtOfTheDay extends StatelessWidget {
         Container(
           margin: EdgeInsets.only(
             top: 24,
-            left: 0,
+            left: 10,
             bottom: 0,
-            right: 0,
+            right: 10,
           ),
           child: Text(
             'Thought of the day'.toUpperCase(),
@@ -24,9 +24,9 @@ class ThoughtOfTheDay extends StatelessWidget {
         Container(
           margin: EdgeInsets.only(
             top: 16,
-            left: 0,
+            left: 10,
             bottom: 24,
-            right: 0,
+            right: 10,
           ),
           child: Text(
             'Good morning! Do you know spider has eight legs?',
@@ -35,6 +35,7 @@ class ThoughtOfTheDay extends StatelessWidget {
               fontWeight: FontWeight.w200,
               fontSize: 18,
             ),
+            textAlign: TextAlign.center,
           ),
         ),
       ],

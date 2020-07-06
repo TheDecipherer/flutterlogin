@@ -65,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
                   Column(
                     children: <Widget>[
                       Container(
-                        margin: EdgeInsets.symmetric(horizontal: 150),
+                        margin: EdgeInsets.symmetric(horizontal: 20),
                         child: TextField(
                           autofocus: false,
                           decoration: InputDecoration(
@@ -96,7 +96,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       ),
                       Container(
-                        margin: EdgeInsets.symmetric(horizontal: 150),
+                        margin: EdgeInsets.symmetric(horizontal: 20),
                         child: TextField(
                           obscureText: true,
                           autofocus: false,

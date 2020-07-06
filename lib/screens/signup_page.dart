@@ -63,7 +63,7 @@ class _SignupPageState extends State<SignupPage> {
                   Column(
                     children: <Widget>[
                       Container(
-                        margin: EdgeInsets.symmetric(horizontal: 150),
+                        margin: EdgeInsets.symmetric(horizontal: 20),
                         child: TextField(
                           autofocus: false,
                           decoration: InputDecoration(
@@ -94,7 +94,7 @@ class _SignupPageState extends State<SignupPage> {
                         ),
                       ),
                       Container(
-                        margin: EdgeInsets.symmetric(horizontal: 150),
+                        margin: EdgeInsets.symmetric(horizontal: 20),
                         child: TextField(
                           obscureText: true,
                           autofocus: false,
@@ -126,7 +126,7 @@ class _SignupPageState extends State<SignupPage> {
                         ),
                       ),
                       Container(
-                        margin: EdgeInsets.symmetric(horizontal: 150),
+                        margin: EdgeInsets.symmetric(horizontal: 20),
                         child: TextField(
                           obscureText: true,
                           autofocus: false,
